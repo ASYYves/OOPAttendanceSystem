@@ -6,7 +6,7 @@
 
 
         students.Add("2023-00339-BN-0", ("Yves Carranza", "7:00 AM", "BSIT"))
-
+        students.Add("2023-00001-BN-0", ("Admin", "", "FACULTY"))
 
     End Sub
 
@@ -26,37 +26,43 @@
     Private Sub btnEnterId_Click(sender As Object, e As EventArgs) Handles btnEnterId.Click
 
 
-        Dim inputID As String = tbxEnterID.Text.Trim().ToUpper
+        Dim inputID As String = tbxEnterID.Text.Trim()
 
 
-        If students.ContainsKey(inputID) Then
+        If inputID = "2023-00001-BN-0" Then
+            tbxStudent.Text = "Welcome Admin!"
+            tbxInOut.Text = ""
+            tbxSchedule.Text = ""
+            tbxLogged.Text = ""
+
+            Me.Hide()
+            Dim adminForm As New Form2(students)
+            adminForm.Show()
 
 
+        ElseIf students.ContainsKey(inputID) Then
             Dim student = students(inputID)
 
 
-            tbxStudent.Text = "Welcome " & student.Name & "!"
+            tbxStudent.Text = "Welcome " & student.Name & "! " & student.Course
 
-            tbxCourse.Text = "Course: " & student.Course
+            tbxInOut.Text = "You are now IN"
 
-            tbxInOut.Text = "IN"
+            tbxSchedule.Text = "Schedule: " & student.Sched
 
-            tbxSchedule.Text = student.Sched
-
-            tbxLogged.Text = DateTime.Now.ToString("hh:mm:tt")
-
-
+            tbxLogged.Text = "Attendance Logged at " & DateTime.Now.ToString("hh:mm:tt")
         Else
 
             tbxStudent.Text = "ID NOT RECOGNIZED"
-
-            tbxCourse.Text = ""
 
             tbxInOut.Text = ""
 
             tbxSchedule.Text = ""
 
             tbxLogged.Text = ""
+
+
+
 
         End If
 
