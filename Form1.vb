@@ -5,7 +5,7 @@
     Private Sub StudentData(Sender As Object, e As EventArgs) Handles MyBase.Load
 
 
-        students.Add("2023-00339-BN-0", ("Yves Carranza", "7:00 AM", "BSIT"))
+        students.Add("2023-00339-BN-0", ("Yves Carranza", "9:00 AM", "BSIT"))
 
 
     End Sub
