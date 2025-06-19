@@ -6,7 +6,6 @@
 
 
         students.Add("2023-00339-BN-0", ("Yves Carranza", "7:00 AM", "BSIT"))
-        students.Add("2023-00001-BN-0", ("Admin", "", "FACULTY"))
 
     End Sub
 
