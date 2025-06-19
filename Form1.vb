@@ -3,7 +3,7 @@
     Public Shared students As New Dictionary(Of String, (Name As String, Sched As String, Course As String))
 
     Private Sub StudentData(Sender As Object, e As EventArgs) Handles MyBase.Load
-        If IO.File.Exists("studentsRecords.txt") Then
+        If IO.File.Exists("studentRecords.txt") Then
             Dim lines = IO.File.ReadAllLines("studentRecords.txt")
             For Each line In lines
                 Dim parts = line.Split("|"c)
@@ -98,7 +98,7 @@
         For Each s In students
             lines.Add(s.Key & "|" & s.Value.Name & "|" & s.Value.Sched & "|" & s.Value.Course)
         Next
-        IO.File.WriteAllLines("studentsRecords.txt", lines)
+        IO.File.WriteAllLines("studentRecords.txt", lines)
     End Sub
 
     Private Sub lblWelcome_Click(sender As Object, e As EventArgs)
