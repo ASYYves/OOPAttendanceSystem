@@ -47,7 +47,7 @@
         ElseIf students.ContainsKey(inputID) Then
             Dim student = students(inputID)
 
-            tbxStudent.Text = "Welcome " & student.Name & "!"
+            tbxStudent.Text = student.Name & "!"
             tbxCourse.Text = student.Course
             tbxInOut.Text = "IN"
             tbxSchedule.Text = "Schedule: " & student.Sched
