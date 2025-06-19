@@ -49,7 +49,7 @@
 
             tbxStudent.Text = "Welcome " & student.Name & "!"
             tbxCourse.Text = student.Course
-            tbxInOut.Text = "You are now IN"
+            tbxInOut.Text = "IN"
             tbxSchedule.Text = "Schedule: " & student.Sched
             tbxLogged.Text = "Attendance Logged at " & DateTime.Now.ToString("hh:mm:tt")
         Else
