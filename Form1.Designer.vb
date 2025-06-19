@@ -43,7 +43,7 @@ Partial Class Form1
         'btnEnterId
         '
         Me.btnEnterId.Location = New System.Drawing.Point(664, 153)
-        Me.btnEnterId.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnEnterId.Margin = New System.Windows.Forms.Padding(4)
         Me.btnEnterId.Name = "btnEnterId"
         Me.btnEnterId.Size = New System.Drawing.Size(176, 44)
         Me.btnEnterId.TabIndex = 0
@@ -120,7 +120,7 @@ Partial Class Form1
         '
         Me.tbxEnterID.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
         Me.tbxEnterID.Location = New System.Drawing.Point(244, 159)
-        Me.tbxEnterID.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.tbxEnterID.Margin = New System.Windows.Forms.Padding(4)
         Me.tbxEnterID.Name = "tbxEnterID"
         Me.tbxEnterID.Size = New System.Drawing.Size(395, 36)
         Me.tbxEnterID.TabIndex = 2
@@ -131,7 +131,7 @@ Partial Class Form1
         '
         Me.tbxCourse.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
         Me.tbxCourse.Location = New System.Drawing.Point(244, 288)
-        Me.tbxCourse.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.tbxCourse.Margin = New System.Windows.Forms.Padding(4)
         Me.tbxCourse.Name = "tbxCourse"
         Me.tbxCourse.ReadOnly = True
         Me.tbxCourse.Size = New System.Drawing.Size(395, 36)
@@ -141,7 +141,7 @@ Partial Class Form1
         '
         Me.tbxInOut.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
         Me.tbxInOut.Location = New System.Drawing.Point(244, 361)
-        Me.tbxInOut.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.tbxInOut.Margin = New System.Windows.Forms.Padding(4)
         Me.tbxInOut.Name = "tbxInOut"
         Me.tbxInOut.ReadOnly = True
         Me.tbxInOut.Size = New System.Drawing.Size(395, 36)
@@ -151,7 +151,7 @@ Partial Class Form1
         '
         Me.tbxSchedule.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
         Me.tbxSchedule.Location = New System.Drawing.Point(244, 434)
-        Me.tbxSchedule.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.tbxSchedule.Margin = New System.Windows.Forms.Padding(4)
         Me.tbxSchedule.Name = "tbxSchedule"
         Me.tbxSchedule.ReadOnly = True
         Me.tbxSchedule.Size = New System.Drawing.Size(395, 36)
@@ -161,7 +161,7 @@ Partial Class Form1
         '
         Me.tbxLogged.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
         Me.tbxLogged.Location = New System.Drawing.Point(244, 497)
-        Me.tbxLogged.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.tbxLogged.Margin = New System.Windows.Forms.Padding(4)
         Me.tbxLogged.Name = "tbxLogged"
         Me.tbxLogged.ReadOnly = True
         Me.tbxLogged.Size = New System.Drawing.Size(395, 36)
@@ -182,7 +182,7 @@ Partial Class Form1
         '
         Me.tbxStudent.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
         Me.tbxStudent.Location = New System.Drawing.Point(244, 225)
-        Me.tbxStudent.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.tbxStudent.Margin = New System.Windows.Forms.Padding(4)
         Me.tbxStudent.Name = "tbxStudent"
         Me.tbxStudent.ReadOnly = True
         Me.tbxStudent.Size = New System.Drawing.Size(395, 36)
@@ -203,6 +203,7 @@ Partial Class Form1
         Me.AcceptButton = Me.btnEnterId
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.ClientSize = New System.Drawing.Size(856, 661)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.tbxStudent)
@@ -220,11 +221,11 @@ Partial Class Form1
         Me.Controls.Add(Me.lblWelcome)
         Me.Controls.Add(Me.btnEnterId)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MaximizeBox = False
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Form1"
+        Me.Text = "ATTENDANCE"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

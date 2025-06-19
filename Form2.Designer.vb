@@ -53,9 +53,9 @@ Partial Class Form2
         'Del_btn
         '
         Me.Del_btn.Font = New System.Drawing.Font("Lucida Sans", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Del_btn.Location = New System.Drawing.Point(535, 457)
+        Me.Del_btn.Location = New System.Drawing.Point(523, 457)
         Me.Del_btn.Name = "Del_btn"
-        Me.Del_btn.Size = New System.Drawing.Size(99, 35)
+        Me.Del_btn.Size = New System.Drawing.Size(107, 44)
         Me.Del_btn.TabIndex = 11
         Me.Del_btn.Text = "Delete"
         Me.Del_btn.UseVisualStyleBackColor = True
@@ -63,9 +63,9 @@ Partial Class Form2
         'Update_btn
         '
         Me.Update_btn.Font = New System.Drawing.Font("Lucida Sans", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Update_btn.Location = New System.Drawing.Point(351, 457)
+        Me.Update_btn.Location = New System.Drawing.Point(343, 457)
         Me.Update_btn.Name = "Update_btn"
-        Me.Update_btn.Size = New System.Drawing.Size(117, 35)
+        Me.Update_btn.Size = New System.Drawing.Size(117, 44)
         Me.Update_btn.TabIndex = 10
         Me.Update_btn.Text = "Update"
         Me.Update_btn.UseVisualStyleBackColor = True
@@ -75,7 +75,7 @@ Partial Class Form2
         Me.Add_btn.Font = New System.Drawing.Font("Lucida Sans", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Add_btn.Location = New System.Drawing.Point(176, 457)
         Me.Add_btn.Name = "Add_btn"
-        Me.Add_btn.Size = New System.Drawing.Size(99, 35)
+        Me.Add_btn.Size = New System.Drawing.Size(99, 44)
         Me.Add_btn.TabIndex = 9
         Me.Add_btn.Text = "Add"
         Me.Add_btn.UseVisualStyleBackColor = True
@@ -161,7 +161,7 @@ Partial Class Form2
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei UI", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(230, 9)
+        Me.Label1.Location = New System.Drawing.Point(222, 9)
         Me.Label1.MaximumSize = New System.Drawing.Size(389, 52)
         Me.Label1.MinimumSize = New System.Drawing.Size(389, 52)
         Me.Label1.Name = "Label1"
@@ -171,11 +171,12 @@ Partial Class Form2
         '
         'Form2
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(120.0!, 120.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
+        Me.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange
         Me.BackgroundImage = Global.OOPIDAttendanceSystem.My.Resources.Resources.bg
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.ClientSize = New System.Drawing.Size(707, 590)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.ClientSize = New System.Drawing.Size(689, 543)
         Me.Controls.Add(Me.Back_btn)
         Me.Controls.Add(Me.Del_btn)
         Me.Controls.Add(Me.Student_ID_txbx)
@@ -189,11 +190,13 @@ Partial Class Form2
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Student_name_txbx)
         Me.Controls.Add(Me.Label5)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "Form2"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Form2"
+        Me.Text = "ADMIN DASHBOARD"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
