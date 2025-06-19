@@ -17,8 +17,6 @@
 
         studentsDummy.Add(studentID, (studentName, studentSched, studentcourse))
 
-
-
         Student_ID_txbx.Clear()
         Student_name_txbx.Clear()
         course_txbx.Clear()
@@ -27,15 +25,40 @@
     End Sub
 
     Private Sub Del_btn_Click(sender As Object, e As EventArgs) Handles Del_btn.Click
+        Dim studentID As String = Student_ID_txbx.Text.Trim()
 
+        If studentsDummy.ContainsKey(studentID) Then
+            studentsDummy.Remove(studentID)
+        End If
+
+        Student_ID_txbx.Clear()
+        Student_name_txbx.Clear()
+        course_txbx.Clear()
+        schedule_txbx.Clear()
     End Sub
 
     Private Sub Update_btn_Click(sender As Object, e As EventArgs) Handles Update_btn.Click
+        Dim studentID As String = Student_ID_txbx.Text.Trim()
+        Dim studentName As String = Student_name_txbx.Text.Trim()
+        Dim studentCourse As String = course_txbx.Text.Trim()
+        Dim studentSched As String = schedule_txbx.Text.Trim()
 
+        If studentsDummy.ContainsKey(studentID) Then
+            studentsDummy(studentID) = (studentName, studentSched, studentCourse)
+        End If
+
+        Student_ID_txbx.Clear()
+        Student_name_txbx.Clear()
+        course_txbx.Clear()
+        schedule_txbx.Clear()
     End Sub
 
     Private Sub Back_btn_Click(sender As Object, e As EventArgs) Handles Back_btn.Click
         Me.Hide()
         Form1.Show()
+    End Sub
+
+    Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

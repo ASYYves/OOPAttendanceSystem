@@ -8,7 +8,6 @@
 
         students.Add("2023-00339-BN-0", ("Yves Carranza", "7:00 AM", "BSIT"))
         students.Add("2023-00001-BN-0", ("Admin", "", "FACULTY"))
-        students.Add("2023-00339-BN-0", ("Yves Carranza", "9:00 AM", "BSIT"))
 
     End Sub
 
@@ -46,7 +45,8 @@
             Dim student = students(inputID)
 
 
-            tbxStudent.Text = "Welcome " & student.Name & "! " & student.Course
+            tbxStudent.Text = "Welcome " & student.Name & "! "
+            tbxCourse.Text = student.Course
 
             tbxInOut.Text = "You are now IN"
 

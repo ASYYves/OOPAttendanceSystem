@@ -40,7 +40,7 @@ Partial Class Form2
         '
         'Back_btn
         '
-        Me.Back_btn.Font = New System.Drawing.Font("Lucida Sans", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Back_btn.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Back_btn.Location = New System.Drawing.Point(606, 530)
         Me.Back_btn.MaximumSize = New System.Drawing.Size(70, 32)
         Me.Back_btn.MinimumSize = New System.Drawing.Size(70, 32)
@@ -52,7 +52,7 @@ Partial Class Form2
         '
         'Del_btn
         '
-        Me.Del_btn.Font = New System.Drawing.Font("Lucida Sans", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Del_btn.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Del_btn.Location = New System.Drawing.Point(523, 457)
         Me.Del_btn.Name = "Del_btn"
         Me.Del_btn.Size = New System.Drawing.Size(107, 44)
@@ -62,7 +62,7 @@ Partial Class Form2
         '
         'Update_btn
         '
-        Me.Update_btn.Font = New System.Drawing.Font("Lucida Sans", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Update_btn.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Update_btn.Location = New System.Drawing.Point(343, 457)
         Me.Update_btn.Name = "Update_btn"
         Me.Update_btn.Size = New System.Drawing.Size(117, 44)
@@ -72,7 +72,7 @@ Partial Class Form2
         '
         'Add_btn
         '
-        Me.Add_btn.Font = New System.Drawing.Font("Lucida Sans", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Add_btn.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Add_btn.Location = New System.Drawing.Point(176, 457)
         Me.Add_btn.Name = "Add_btn"
         Me.Add_btn.Size = New System.Drawing.Size(99, 44)
@@ -82,34 +82,34 @@ Partial Class Form2
         '
         'schedule_txbx
         '
-        Me.schedule_txbx.Font = New System.Drawing.Font("MS Reference Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.schedule_txbx.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.schedule_txbx.Location = New System.Drawing.Point(168, 354)
         Me.schedule_txbx.Name = "schedule_txbx"
-        Me.schedule_txbx.Size = New System.Drawing.Size(210, 38)
+        Me.schedule_txbx.Size = New System.Drawing.Size(210, 36)
         Me.schedule_txbx.TabIndex = 8
         '
         'course_txbx
         '
-        Me.course_txbx.Font = New System.Drawing.Font("MS Reference Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.course_txbx.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.course_txbx.Location = New System.Drawing.Point(145, 280)
         Me.course_txbx.Name = "course_txbx"
-        Me.course_txbx.Size = New System.Drawing.Size(192, 38)
+        Me.course_txbx.Size = New System.Drawing.Size(192, 36)
         Me.course_txbx.TabIndex = 7
         '
         'Student_name_txbx
         '
-        Me.Student_name_txbx.Font = New System.Drawing.Font("MS Reference Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Student_name_txbx.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Student_name_txbx.Location = New System.Drawing.Point(218, 204)
         Me.Student_name_txbx.Name = "Student_name_txbx"
-        Me.Student_name_txbx.Size = New System.Drawing.Size(355, 38)
+        Me.Student_name_txbx.Size = New System.Drawing.Size(355, 36)
         Me.Student_name_txbx.TabIndex = 6
         '
         'Student_ID_txbx
         '
-        Me.Student_ID_txbx.Font = New System.Drawing.Font("MS Reference Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Student_ID_txbx.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Student_ID_txbx.Location = New System.Drawing.Point(193, 129)
         Me.Student_ID_txbx.Name = "Student_ID_txbx"
-        Me.Student_ID_txbx.Size = New System.Drawing.Size(267, 38)
+        Me.Student_ID_txbx.Size = New System.Drawing.Size(267, 36)
         Me.Student_ID_txbx.TabIndex = 5
         '
         'Label5
