@@ -50,8 +50,8 @@
             tbxStudent.Text = student.Name & "!"
             tbxCourse.Text = student.Course
             tbxInOut.Text = "IN"
-            tbxSchedule.Text = "Schedule: " & student.Sched
-            tbxLogged.Text = "Attendance Logged at " & DateTime.Now.ToString("hh:mm:tt")
+            tbxSchedule.Text = student.Sched
+            tbxLogged.Text = DateTime.Now.ToString("hh:mm:tt")
         Else
             tbxStudent.Text = "ID NOT RECOGNIZED"
             tbxInOut.Text = ""

@@ -37,14 +37,19 @@ Partial Class Form1
         Me.lblStudent = New System.Windows.Forms.Label()
         Me.tbxStudent = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'btnEnterId
         '
-        Me.btnEnterId.Location = New System.Drawing.Point(474, 291)
+        Me.btnEnterId.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnEnterId.Location = New System.Drawing.Point(535, 276)
         Me.btnEnterId.Margin = New System.Windows.Forms.Padding(4)
         Me.btnEnterId.Name = "btnEnterId"
-        Me.btnEnterId.Size = New System.Drawing.Size(123, 44)
+        Me.btnEnterId.Size = New System.Drawing.Size(114, 36)
         Me.btnEnterId.TabIndex = 0
         Me.btnEnterId.Text = "Enter"
         Me.btnEnterId.UseVisualStyleBackColor = True
@@ -52,65 +57,71 @@ Partial Class Form1
         'lblEnterID
         '
         Me.lblEnterID.AutoSize = True
-        Me.lblEnterID.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
-        Me.lblEnterID.Location = New System.Drawing.Point(195, 253)
+        Me.lblEnterID.BackColor = System.Drawing.Color.Transparent
+        Me.lblEnterID.Font = New System.Drawing.Font("Palatino Linotype", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblEnterID.ForeColor = System.Drawing.Color.Black
+        Me.lblEnterID.Location = New System.Drawing.Point(193, 275)
         Me.lblEnterID.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblEnterID.Name = "lblEnterID"
-        Me.lblEnterID.Size = New System.Drawing.Size(113, 30)
+        Me.lblEnterID.Size = New System.Drawing.Size(118, 34)
         Me.lblEnterID.TabIndex = 2
         Me.lblEnterID.Text = "Enter ID:"
         '
         'lblCourse
         '
         Me.lblCourse.AutoSize = True
-        Me.lblCourse.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
-        Me.lblCourse.Location = New System.Drawing.Point(212, 416)
+        Me.lblCourse.BackColor = System.Drawing.Color.Transparent
+        Me.lblCourse.Font = New System.Drawing.Font("Palatino Linotype", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCourse.Location = New System.Drawing.Point(193, 400)
         Me.lblCourse.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblCourse.Name = "lblCourse"
-        Me.lblCourse.Size = New System.Drawing.Size(103, 30)
+        Me.lblCourse.Size = New System.Drawing.Size(101, 34)
         Me.lblCourse.TabIndex = 3
         Me.lblCourse.Text = "Course:"
         '
         'lblInOut
         '
         Me.lblInOut.AutoSize = True
-        Me.lblInOut.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblInOut.Location = New System.Drawing.Point(54, 497)
+        Me.lblInOut.BackColor = System.Drawing.Color.Transparent
+        Me.lblInOut.Font = New System.Drawing.Font("Palatino Linotype", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblInOut.Location = New System.Drawing.Point(193, 458)
         Me.lblInOut.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblInOut.Name = "lblInOut"
-        Me.lblInOut.Size = New System.Drawing.Size(254, 29)
+        Me.lblInOut.Size = New System.Drawing.Size(253, 34)
         Me.lblInOut.TabIndex = 4
         Me.lblInOut.Text = "You are now clocked "
         '
         'lblSchedule
         '
         Me.lblSchedule.AutoSize = True
-        Me.lblSchedule.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
-        Me.lblSchedule.Location = New System.Drawing.Point(189, 573)
+        Me.lblSchedule.BackColor = System.Drawing.Color.Transparent
+        Me.lblSchedule.Font = New System.Drawing.Font("Palatino Linotype", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSchedule.Location = New System.Drawing.Point(193, 628)
         Me.lblSchedule.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblSchedule.Name = "lblSchedule"
-        Me.lblSchedule.Size = New System.Drawing.Size(126, 30)
+        Me.lblSchedule.Size = New System.Drawing.Size(123, 34)
         Me.lblSchedule.TabIndex = 5
         Me.lblSchedule.Text = "Schedule:"
         '
         'lblLogged
         '
         Me.lblLogged.AutoSize = True
-        Me.lblLogged.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
-        Me.lblLogged.Location = New System.Drawing.Point(140, 645)
+        Me.lblLogged.BackColor = System.Drawing.Color.Transparent
+        Me.lblLogged.Font = New System.Drawing.Font("Palatino Linotype", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblLogged.Location = New System.Drawing.Point(193, 689)
         Me.lblLogged.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblLogged.Name = "lblLogged"
-        Me.lblLogged.Size = New System.Drawing.Size(168, 30)
+        Me.lblLogged.Size = New System.Drawing.Size(168, 34)
         Me.lblLogged.TabIndex = 6
         Me.lblLogged.Text = "You logged at"
         '
         'tbxEnterID
         '
         Me.tbxEnterID.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
-        Me.tbxEnterID.Location = New System.Drawing.Point(339, 247)
+        Me.tbxEnterID.Location = New System.Drawing.Point(314, 275)
         Me.tbxEnterID.Margin = New System.Windows.Forms.Padding(4)
         Me.tbxEnterID.Name = "tbxEnterID"
-        Me.tbxEnterID.Size = New System.Drawing.Size(395, 36)
+        Me.tbxEnterID.Size = New System.Drawing.Size(202, 36)
         Me.tbxEnterID.TabIndex = 2
         Me.tbxEnterID.Tag = ""
         Me.tbxEnterID.Text = "0000-0000-BN-0"
@@ -118,58 +129,59 @@ Partial Class Form1
         'tbxCourse
         '
         Me.tbxCourse.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
-        Me.tbxCourse.Location = New System.Drawing.Point(339, 416)
+        Me.tbxCourse.Location = New System.Drawing.Point(304, 394)
         Me.tbxCourse.Margin = New System.Windows.Forms.Padding(4)
         Me.tbxCourse.Name = "tbxCourse"
         Me.tbxCourse.ReadOnly = True
-        Me.tbxCourse.Size = New System.Drawing.Size(395, 36)
+        Me.tbxCourse.Size = New System.Drawing.Size(155, 36)
         Me.tbxCourse.TabIndex = 8
         '
         'tbxInOut
         '
         Me.tbxInOut.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
-        Me.tbxInOut.Location = New System.Drawing.Point(339, 490)
+        Me.tbxInOut.Location = New System.Drawing.Point(464, 458)
         Me.tbxInOut.Margin = New System.Windows.Forms.Padding(4)
         Me.tbxInOut.Name = "tbxInOut"
         Me.tbxInOut.ReadOnly = True
-        Me.tbxInOut.Size = New System.Drawing.Size(395, 36)
+        Me.tbxInOut.Size = New System.Drawing.Size(108, 36)
         Me.tbxInOut.TabIndex = 9
         '
         'tbxSchedule
         '
         Me.tbxSchedule.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
-        Me.tbxSchedule.Location = New System.Drawing.Point(339, 567)
+        Me.tbxSchedule.Location = New System.Drawing.Point(322, 628)
         Me.tbxSchedule.Margin = New System.Windows.Forms.Padding(4)
         Me.tbxSchedule.Name = "tbxSchedule"
         Me.tbxSchedule.ReadOnly = True
-        Me.tbxSchedule.Size = New System.Drawing.Size(395, 36)
+        Me.tbxSchedule.Size = New System.Drawing.Size(215, 36)
         Me.tbxSchedule.TabIndex = 10
         '
         'tbxLogged
         '
         Me.tbxLogged.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
-        Me.tbxLogged.Location = New System.Drawing.Point(339, 642)
+        Me.tbxLogged.Location = New System.Drawing.Point(381, 689)
         Me.tbxLogged.Margin = New System.Windows.Forms.Padding(4)
         Me.tbxLogged.Name = "tbxLogged"
         Me.tbxLogged.ReadOnly = True
-        Me.tbxLogged.Size = New System.Drawing.Size(395, 36)
+        Me.tbxLogged.Size = New System.Drawing.Size(215, 36)
         Me.tbxLogged.TabIndex = 11
         '
         'lblStudent
         '
         Me.lblStudent.AutoSize = True
-        Me.lblStudent.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
-        Me.lblStudent.Location = New System.Drawing.Point(189, 349)
+        Me.lblStudent.BackColor = System.Drawing.Color.Transparent
+        Me.lblStudent.Font = New System.Drawing.Font("Palatino Linotype", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblStudent.Location = New System.Drawing.Point(193, 338)
         Me.lblStudent.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblStudent.Name = "lblStudent"
-        Me.lblStudent.Size = New System.Drawing.Size(121, 30)
+        Me.lblStudent.Size = New System.Drawing.Size(117, 34)
         Me.lblStudent.TabIndex = 12
         Me.lblStudent.Text = "Welcome"
         '
         'tbxStudent
         '
         Me.tbxStudent.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
-        Me.tbxStudent.Location = New System.Drawing.Point(339, 349)
+        Me.tbxStudent.Location = New System.Drawing.Point(322, 332)
         Me.tbxStudent.Margin = New System.Windows.Forms.Padding(4)
         Me.tbxStudent.Name = "tbxStudent"
         Me.tbxStudent.ReadOnly = True
@@ -179,12 +191,56 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(611, 227)
+        Me.Label1.Location = New System.Drawing.Point(393, 255)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(123, 16)
         Me.Label1.TabIndex = 14
         Me.Label1.Text = "Dash are automatic"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Font = New System.Drawing.Font("Palatino Linotype", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(193, 515)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(212, 34)
+        Me.Label2.TabIndex = 15
+        Me.Label2.Text = "Number of Lates:"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Font = New System.Drawing.Font("Palatino Linotype", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(193, 569)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(249, 34)
+        Me.Label3.TabIndex = 16
+        Me.Label3.Text = "Number of  Absents:"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
+        Me.TextBox1.Location = New System.Drawing.Point(429, 515)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.ReadOnly = True
+        Me.TextBox1.Size = New System.Drawing.Size(108, 36)
+        Me.TextBox1.TabIndex = 17
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
+        Me.TextBox2.Location = New System.Drawing.Point(464, 569)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.ReadOnly = True
+        Me.TextBox2.Size = New System.Drawing.Size(108, 36)
+        Me.TextBox2.TabIndex = 18
         '
         'Form1
         '
@@ -193,7 +249,11 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.OOPIDAttendanceSystem.My.Resources.Resources.BGOOP2
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(804, 714)
+        Me.ClientSize = New System.Drawing.Size(892, 755)
+        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.tbxStudent)
         Me.Controls.Add(Me.lblStudent)
@@ -234,4 +294,8 @@ Partial Class Form1
     Friend WithEvents lblStudent As Label
     Friend WithEvents tbxStudent As TextBox
     Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox2 As TextBox
 End Class
