@@ -35,13 +35,12 @@ Partial Class Form2
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Back_btn
         '
         Me.Back_btn.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Back_btn.Location = New System.Drawing.Point(606, 530)
+        Me.Back_btn.Location = New System.Drawing.Point(679, 652)
         Me.Back_btn.MaximumSize = New System.Drawing.Size(70, 32)
         Me.Back_btn.MinimumSize = New System.Drawing.Size(70, 32)
         Me.Back_btn.Name = "Back_btn"
@@ -53,7 +52,7 @@ Partial Class Form2
         'Del_btn
         '
         Me.Del_btn.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Del_btn.Location = New System.Drawing.Point(523, 457)
+        Me.Del_btn.Location = New System.Drawing.Point(457, 474)
         Me.Del_btn.Name = "Del_btn"
         Me.Del_btn.Size = New System.Drawing.Size(107, 44)
         Me.Del_btn.TabIndex = 11
@@ -63,7 +62,7 @@ Partial Class Form2
         'Update_btn
         '
         Me.Update_btn.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Update_btn.Location = New System.Drawing.Point(343, 457)
+        Me.Update_btn.Location = New System.Drawing.Point(284, 474)
         Me.Update_btn.Name = "Update_btn"
         Me.Update_btn.Size = New System.Drawing.Size(117, 44)
         Me.Update_btn.TabIndex = 10
@@ -73,7 +72,7 @@ Partial Class Form2
         'Add_btn
         '
         Me.Add_btn.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Add_btn.Location = New System.Drawing.Point(176, 457)
+        Me.Add_btn.Location = New System.Drawing.Point(113, 474)
         Me.Add_btn.Name = "Add_btn"
         Me.Add_btn.Size = New System.Drawing.Size(99, 44)
         Me.Add_btn.TabIndex = 9
@@ -82,44 +81,44 @@ Partial Class Form2
         '
         'schedule_txbx
         '
-        Me.schedule_txbx.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.schedule_txbx.Location = New System.Drawing.Point(168, 354)
+        Me.schedule_txbx.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.schedule_txbx.Location = New System.Drawing.Point(230, 391)
         Me.schedule_txbx.Name = "schedule_txbx"
-        Me.schedule_txbx.Size = New System.Drawing.Size(210, 36)
+        Me.schedule_txbx.Size = New System.Drawing.Size(239, 39)
         Me.schedule_txbx.TabIndex = 8
         '
         'course_txbx
         '
-        Me.course_txbx.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.course_txbx.Location = New System.Drawing.Point(145, 280)
+        Me.course_txbx.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.course_txbx.Location = New System.Drawing.Point(230, 314)
         Me.course_txbx.Name = "course_txbx"
-        Me.course_txbx.Size = New System.Drawing.Size(192, 36)
+        Me.course_txbx.Size = New System.Drawing.Size(192, 39)
         Me.course_txbx.TabIndex = 7
         '
         'Student_name_txbx
         '
-        Me.Student_name_txbx.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Student_name_txbx.Location = New System.Drawing.Point(218, 204)
+        Me.Student_name_txbx.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Student_name_txbx.Location = New System.Drawing.Point(230, 240)
         Me.Student_name_txbx.Name = "Student_name_txbx"
-        Me.Student_name_txbx.Size = New System.Drawing.Size(355, 36)
+        Me.Student_name_txbx.Size = New System.Drawing.Size(404, 39)
         Me.Student_name_txbx.TabIndex = 6
         '
         'Student_ID_txbx
         '
-        Me.Student_ID_txbx.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Student_ID_txbx.Location = New System.Drawing.Point(193, 129)
+        Me.Student_ID_txbx.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Student_ID_txbx.Location = New System.Drawing.Point(230, 162)
         Me.Student_ID_txbx.Name = "Student_ID_txbx"
-        Me.Student_ID_txbx.Size = New System.Drawing.Size(267, 36)
+        Me.Student_ID_txbx.Size = New System.Drawing.Size(267, 39)
         Me.Student_ID_txbx.TabIndex = 5
         '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Font = New System.Drawing.Font("Mongolian Baiti", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(41, 362)
+        Me.Label5.Font = New System.Drawing.Font("Mongolian Baiti", 16.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(74, 391)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(121, 26)
+        Me.Label5.Size = New System.Drawing.Size(132, 30)
         Me.Label5.TabIndex = 4
         Me.Label5.Text = "Schedule:"
         '
@@ -127,10 +126,10 @@ Partial Class Form2
         '
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Mongolian Baiti", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(41, 288)
+        Me.Label4.Font = New System.Drawing.Font("Mongolian Baiti", 16.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(101, 319)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(98, 26)
+        Me.Label4.Size = New System.Drawing.Size(107, 30)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Course:"
         '
@@ -138,10 +137,10 @@ Partial Class Form2
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Mongolian Baiti", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(37, 212)
+        Me.Label3.Font = New System.Drawing.Font("Mongolian Baiti", 16.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(23, 249)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(175, 26)
+        Me.Label3.Size = New System.Drawing.Size(193, 30)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Student Name:"
         '
@@ -149,39 +148,24 @@ Partial Class Form2
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Mongolian Baiti", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(41, 137)
+        Me.Label2.Font = New System.Drawing.Font("Mongolian Baiti", 16.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(52, 167)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(140, 26)
+        Me.Label2.Size = New System.Drawing.Size(154, 30)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Student ID:"
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei UI", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(222, 9)
-        Me.Label1.MaximumSize = New System.Drawing.Size(389, 52)
-        Me.Label1.MinimumSize = New System.Drawing.Size(389, 52)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(389, 52)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Admin Dashboard"
-        '
         'Form2
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(120.0!, 120.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange
-        Me.BackgroundImage = Global.OOPIDAttendanceSystem.My.Resources.Resources.bg
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ClientSize = New System.Drawing.Size(689, 543)
+        Me.BackgroundImage = Global.OOPIDAttendanceSystem.My.Resources.Resources.BGOOP
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(797, 724)
         Me.Controls.Add(Me.Back_btn)
         Me.Controls.Add(Me.Del_btn)
         Me.Controls.Add(Me.Student_ID_txbx)
         Me.Controls.Add(Me.Update_btn)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Add_btn)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.schedule_txbx)
@@ -201,7 +185,6 @@ Partial Class Form2
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Label1 As Label
     Friend WithEvents schedule_txbx As TextBox
     Friend WithEvents course_txbx As TextBox
     Friend WithEvents Student_name_txbx As TextBox

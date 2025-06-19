@@ -24,7 +24,6 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.btnEnterId = New System.Windows.Forms.Button()
-        Me.lblWelcome = New System.Windows.Forms.Label()
         Me.lblEnterID = New System.Windows.Forms.Label()
         Me.lblCourse = New System.Windows.Forms.Label()
         Me.lblInOut = New System.Windows.Forms.Label()
@@ -42,30 +41,19 @@ Partial Class Form1
         '
         'btnEnterId
         '
-        Me.btnEnterId.Location = New System.Drawing.Point(664, 153)
+        Me.btnEnterId.Location = New System.Drawing.Point(474, 291)
         Me.btnEnterId.Margin = New System.Windows.Forms.Padding(4)
         Me.btnEnterId.Name = "btnEnterId"
-        Me.btnEnterId.Size = New System.Drawing.Size(176, 44)
+        Me.btnEnterId.Size = New System.Drawing.Size(123, 44)
         Me.btnEnterId.TabIndex = 0
         Me.btnEnterId.Text = "Enter"
         Me.btnEnterId.UseVisualStyleBackColor = True
-        '
-        'lblWelcome
-        '
-        Me.lblWelcome.AutoSize = True
-        Me.lblWelcome.Font = New System.Drawing.Font("Microsoft Sans Serif", 30.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblWelcome.Location = New System.Drawing.Point(56, 22)
-        Me.lblWelcome.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.lblWelcome.Name = "lblWelcome"
-        Me.lblWelcome.Size = New System.Drawing.Size(402, 58)
-        Me.lblWelcome.TabIndex = 1
-        Me.lblWelcome.Text = "Welcom PUPian!"
         '
         'lblEnterID
         '
         Me.lblEnterID.AutoSize = True
         Me.lblEnterID.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
-        Me.lblEnterID.Location = New System.Drawing.Point(100, 165)
+        Me.lblEnterID.Location = New System.Drawing.Point(195, 253)
         Me.lblEnterID.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblEnterID.Name = "lblEnterID"
         Me.lblEnterID.Size = New System.Drawing.Size(113, 30)
@@ -76,21 +64,21 @@ Partial Class Form1
         '
         Me.lblCourse.AutoSize = True
         Me.lblCourse.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
-        Me.lblCourse.Location = New System.Drawing.Point(119, 295)
+        Me.lblCourse.Location = New System.Drawing.Point(212, 416)
         Me.lblCourse.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblCourse.Name = "lblCourse"
-        Me.lblCourse.Size = New System.Drawing.Size(96, 30)
+        Me.lblCourse.Size = New System.Drawing.Size(103, 30)
         Me.lblCourse.TabIndex = 3
-        Me.lblCourse.Text = "Course"
+        Me.lblCourse.Text = "Course:"
         '
         'lblInOut
         '
         Me.lblInOut.AutoSize = True
-        Me.lblInOut.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.25!)
-        Me.lblInOut.Location = New System.Drawing.Point(3, 374)
+        Me.lblInOut.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblInOut.Location = New System.Drawing.Point(54, 497)
         Me.lblInOut.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblInOut.Name = "lblInOut"
-        Me.lblInOut.Size = New System.Drawing.Size(219, 25)
+        Me.lblInOut.Size = New System.Drawing.Size(254, 29)
         Me.lblInOut.TabIndex = 4
         Me.lblInOut.Text = "You are now clocked "
         '
@@ -98,18 +86,18 @@ Partial Class Form1
         '
         Me.lblSchedule.AutoSize = True
         Me.lblSchedule.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
-        Me.lblSchedule.Location = New System.Drawing.Point(91, 442)
+        Me.lblSchedule.Location = New System.Drawing.Point(189, 573)
         Me.lblSchedule.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblSchedule.Name = "lblSchedule"
-        Me.lblSchedule.Size = New System.Drawing.Size(119, 30)
+        Me.lblSchedule.Size = New System.Drawing.Size(126, 30)
         Me.lblSchedule.TabIndex = 5
-        Me.lblSchedule.Text = "Schedule"
+        Me.lblSchedule.Text = "Schedule:"
         '
         'lblLogged
         '
         Me.lblLogged.AutoSize = True
         Me.lblLogged.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
-        Me.lblLogged.Location = New System.Drawing.Point(32, 505)
+        Me.lblLogged.Location = New System.Drawing.Point(140, 645)
         Me.lblLogged.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblLogged.Name = "lblLogged"
         Me.lblLogged.Size = New System.Drawing.Size(168, 30)
@@ -119,7 +107,7 @@ Partial Class Form1
         'tbxEnterID
         '
         Me.tbxEnterID.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
-        Me.tbxEnterID.Location = New System.Drawing.Point(244, 159)
+        Me.tbxEnterID.Location = New System.Drawing.Point(339, 247)
         Me.tbxEnterID.Margin = New System.Windows.Forms.Padding(4)
         Me.tbxEnterID.Name = "tbxEnterID"
         Me.tbxEnterID.Size = New System.Drawing.Size(395, 36)
@@ -130,7 +118,7 @@ Partial Class Form1
         'tbxCourse
         '
         Me.tbxCourse.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
-        Me.tbxCourse.Location = New System.Drawing.Point(244, 288)
+        Me.tbxCourse.Location = New System.Drawing.Point(339, 416)
         Me.tbxCourse.Margin = New System.Windows.Forms.Padding(4)
         Me.tbxCourse.Name = "tbxCourse"
         Me.tbxCourse.ReadOnly = True
@@ -140,7 +128,7 @@ Partial Class Form1
         'tbxInOut
         '
         Me.tbxInOut.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
-        Me.tbxInOut.Location = New System.Drawing.Point(244, 361)
+        Me.tbxInOut.Location = New System.Drawing.Point(339, 490)
         Me.tbxInOut.Margin = New System.Windows.Forms.Padding(4)
         Me.tbxInOut.Name = "tbxInOut"
         Me.tbxInOut.ReadOnly = True
@@ -150,7 +138,7 @@ Partial Class Form1
         'tbxSchedule
         '
         Me.tbxSchedule.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
-        Me.tbxSchedule.Location = New System.Drawing.Point(244, 434)
+        Me.tbxSchedule.Location = New System.Drawing.Point(339, 567)
         Me.tbxSchedule.Margin = New System.Windows.Forms.Padding(4)
         Me.tbxSchedule.Name = "tbxSchedule"
         Me.tbxSchedule.ReadOnly = True
@@ -160,7 +148,7 @@ Partial Class Form1
         'tbxLogged
         '
         Me.tbxLogged.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
-        Me.tbxLogged.Location = New System.Drawing.Point(244, 497)
+        Me.tbxLogged.Location = New System.Drawing.Point(339, 642)
         Me.tbxLogged.Margin = New System.Windows.Forms.Padding(4)
         Me.tbxLogged.Name = "tbxLogged"
         Me.tbxLogged.ReadOnly = True
@@ -171,7 +159,7 @@ Partial Class Form1
         '
         Me.lblStudent.AutoSize = True
         Me.lblStudent.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
-        Me.lblStudent.Location = New System.Drawing.Point(92, 233)
+        Me.lblStudent.Location = New System.Drawing.Point(189, 349)
         Me.lblStudent.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblStudent.Name = "lblStudent"
         Me.lblStudent.Size = New System.Drawing.Size(121, 30)
@@ -181,7 +169,7 @@ Partial Class Form1
         'tbxStudent
         '
         Me.tbxStudent.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
-        Me.tbxStudent.Location = New System.Drawing.Point(244, 225)
+        Me.tbxStudent.Location = New System.Drawing.Point(339, 349)
         Me.tbxStudent.Margin = New System.Windows.Forms.Padding(4)
         Me.tbxStudent.Name = "tbxStudent"
         Me.tbxStudent.ReadOnly = True
@@ -191,7 +179,7 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(240, 201)
+        Me.Label1.Location = New System.Drawing.Point(611, 227)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(123, 16)
@@ -203,8 +191,9 @@ Partial Class Form1
         Me.AcceptButton = Me.btnEnterId
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ClientSize = New System.Drawing.Size(856, 661)
+        Me.BackgroundImage = Global.OOPIDAttendanceSystem.My.Resources.Resources.BGOOP2
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(804, 714)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.tbxStudent)
         Me.Controls.Add(Me.lblStudent)
@@ -218,8 +207,8 @@ Partial Class Form1
         Me.Controls.Add(Me.lblInOut)
         Me.Controls.Add(Me.lblCourse)
         Me.Controls.Add(Me.lblEnterID)
-        Me.Controls.Add(Me.lblWelcome)
         Me.Controls.Add(Me.btnEnterId)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MaximizeBox = False
@@ -232,7 +221,6 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents btnEnterId As Button
-    Friend WithEvents lblWelcome As Label
     Friend WithEvents lblEnterID As Label
     Friend WithEvents lblCourse As Label
     Friend WithEvents lblInOut As Label

@@ -134,5 +134,11 @@
   <ItemGroup>
     <None Include="Resources\bg att..png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BGOOP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BGOOP2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
