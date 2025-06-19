@@ -20,6 +20,8 @@
         Student_name_txbx.Clear()
         course_txbx.Clear()
         schedule_txbx.Clear()
+
+        MessageBox.Show("Student added successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
     End Sub
 
     Private Sub Del_btn_Click(sender As Object, e As EventArgs) Handles Del_btn.Click
@@ -34,6 +36,8 @@
         Student_name_txbx.Clear()
         course_txbx.Clear()
         schedule_txbx.Clear()
+
+        MessageBox.Show("Student deleted successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
     End Sub
 
     Private Sub Update_btn_Click(sender As Object, e As EventArgs) Handles Update_btn.Click
@@ -51,6 +55,8 @@
         Student_name_txbx.Clear()
         course_txbx.Clear()
         schedule_txbx.Clear()
+
+        MessageBox.Show("Student updated successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
     End Sub
 
     Private Sub Back_btn_Click(sender As Object, e As EventArgs) Handles Back_btn.Click

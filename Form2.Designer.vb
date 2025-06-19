@@ -176,7 +176,7 @@ Partial Class Form2
         Me.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange
         Me.BackgroundImage = Global.OOPIDAttendanceSystem.My.Resources.Resources.bg
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ClientSize = New System.Drawing.Size(689, 543)
+        Me.ClientSize = New System.Drawing.Size(689, 586)
         Me.Controls.Add(Me.Back_btn)
         Me.Controls.Add(Me.Del_btn)
         Me.Controls.Add(Me.Student_ID_txbx)

@@ -3,7 +3,7 @@
     Public Shared students As New Dictionary(Of String, (Name As String, Sched As String, Course As String))
 
     Private Sub StudentData(Sender As Object, e As EventArgs) Handles MyBase.Load
-        If IO.File.Exists("students.txt") Then
+        If IO.File.Exists("studentRecords.txt") Then
             Dim lines = IO.File.ReadAllLines("studentRecords.txt")
             For Each line In lines
                 Dim parts = line.Split("|"c)
@@ -49,7 +49,7 @@
 
             tbxStudent.Text = "Welcome " & student.Name & "!"
             tbxCourse.Text = student.Course
-            tbxInOut.Text = "You are now IN"
+            tbxInOut.Text = "IN"
             tbxSchedule.Text = "Schedule: " & student.Sched
             tbxLogged.Text = "Attendance Logged at " & DateTime.Now.ToString("hh:mm:tt")
         Else
@@ -98,7 +98,7 @@
         For Each s In students
             lines.Add(s.Key & "|" & s.Value.Name & "|" & s.Value.Sched & "|" & s.Value.Course)
         Next
-        IO.File.WriteAllLines("students.txt", lines)
+        IO.File.WriteAllLines("studentRecords.txt", lines)
     End Sub
 
 End Class
