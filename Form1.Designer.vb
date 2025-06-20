@@ -46,7 +46,7 @@ Partial Class Form1
         'btnEnterId
         '
         Me.btnEnterId.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnEnterId.Location = New System.Drawing.Point(401, 224)
+        Me.btnEnterId.Location = New System.Drawing.Point(436, 225)
         Me.btnEnterId.Name = "btnEnterId"
         Me.btnEnterId.Size = New System.Drawing.Size(86, 29)
         Me.btnEnterId.TabIndex = 0
@@ -114,10 +114,10 @@ Partial Class Form1
         Me.tbxEnterID.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
         Me.tbxEnterID.Location = New System.Drawing.Point(236, 223)
         Me.tbxEnterID.Name = "tbxEnterID"
-        Me.tbxEnterID.Size = New System.Drawing.Size(152, 31)
+        Me.tbxEnterID.Size = New System.Drawing.Size(179, 31)
         Me.tbxEnterID.TabIndex = 2
         Me.tbxEnterID.Tag = ""
-        Me.tbxEnterID.Text = "0000-0000-BN-0"
+        Me.tbxEnterID.Text = "0000-00000-BN-0"
         '
         'tbxCourse
         '

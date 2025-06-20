@@ -141,7 +141,7 @@
         Dim cursorPos As Integer = tbxEnterID.SelectionStart
         Dim raw = tbxEnterID.Text.Replace("-", "").ToUpper()
 
-        If raw.Length > 13 Then raw = raw.Substring(0, 13)
+        If raw.Length > 12 Then raw = raw.Substring(0, 12)
 
         Dim formatted As String = ""
         Dim DashOffsets As New List(Of Integer) From {4, 9, 11}
@@ -197,7 +197,7 @@
         ' Save Updated Student Schedules (Optional Update if Needed)
         Dim StudentLines As New List(Of String)
         For Each kvp In Students
-            StudentLines.Add(kvp.Key & "|" & kvp.Value.Name & "|" & kvp.Value.Course & "|" & kvp.Value.Sched)
+            StudentLines.Add(kvp.Key & "|" & kvp.Value.Name & "|" & kvp.Value.Sched & "|" & kvp.Value.Course)
         Next
         IO.File.WriteAllLines("studentRecords.txt", StudentLines)
     End Sub
