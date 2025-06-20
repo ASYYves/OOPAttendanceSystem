@@ -1,19 +1,19 @@
 ﻿Public Class Form2
 
-    Private studentsDummy As New Dictionary(Of String, (Name As String, Sched As String, Course As String))
+    Private StudentsDummy As New Dictionary(Of String, (Name As String, Sched As String, Course As String))
 
     Public Sub New(students As Dictionary(Of String, (Name As String, Sched As String, Course As String)))
         InitializeComponent()
-        studentsDummy = students
+        StudentsDummy = students
     End Sub
 
     Private Sub Add_btn_Click(sender As Object, e As EventArgs) Handles Add_btn.Click
-        Dim studentID As String = Student_ID_txbx.Text.Trim()
-        Dim studentName As String = Student_name_txbx.Text.Trim()
-        Dim studentcourse As String = course_txbx.Text.Trim()
-        Dim studentSched As String = schedule_txbx.Text.Trim()
+        Dim StudentID As String = Student_ID_txbx.Text.Trim()
+        Dim StudentName As String = Student_name_txbx.Text.Trim()
+        Dim StudentCourse As String = course_txbx.Text.Trim()
+        Dim StudentSched As String = schedule_txbx.Text.Trim()
 
-        studentsDummy(studentID) = (studentName, studentSched, studentcourse)
+        StudentsDummy(StudentID) = (StudentName, StudentSched, StudentCourse)
         Form1.SaveStudentsToFile()
 
         Student_ID_txbx.Clear()
@@ -21,14 +21,14 @@
         course_txbx.Clear()
         schedule_txbx.Clear()
 
-        MessageBox.Show("Student added successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        MessageBox.Show("Added Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
     End Sub
 
     Private Sub Del_btn_Click(sender As Object, e As EventArgs) Handles Del_btn.Click
-        Dim studentID As String = Student_ID_txbx.Text.Trim()
+        Dim StudentID As String = Student_ID_txbx.Text.Trim()
 
-        If studentsDummy.ContainsKey(studentID) Then
-            studentsDummy.Remove(studentID)
+        If StudentsDummy.ContainsKey(StudentID) Then
+            StudentsDummy.Remove(StudentID)
             Form1.SaveStudentsToFile()
         End If
 
@@ -37,17 +37,17 @@
         course_txbx.Clear()
         schedule_txbx.Clear()
 
-        MessageBox.Show("Student deleted successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        MessageBox.Show("Deleted Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
     End Sub
 
     Private Sub Update_btn_Click(sender As Object, e As EventArgs) Handles Update_btn.Click
-        Dim studentID As String = Student_ID_txbx.Text.Trim()
-        Dim studentName As String = Student_name_txbx.Text.Trim()
-        Dim studentCourse As String = course_txbx.Text.Trim()
-        Dim studentSched As String = schedule_txbx.Text.Trim()
+        Dim StudentID As String = Student_ID_txbx.Text.Trim()
+        Dim StudentName As String = Student_name_txbx.Text.Trim()
+        Dim StudentCourse As String = course_txbx.Text.Trim()
+        Dim StudentSched As String = schedule_txbx.Text.Trim()
 
-        If studentsDummy.ContainsKey(studentID) Then
-            studentsDummy(studentID) = (studentName, studentSched, studentCourse)
+        If StudentsDummy.ContainsKey(StudentID) Then
+            StudentsDummy(StudentID) = (StudentName, StudentSched, StudentCourse)
             Form1.SaveStudentsToFile()
         End If
 
@@ -56,7 +56,7 @@
         course_txbx.Clear()
         schedule_txbx.Clear()
 
-        MessageBox.Show("Student updated successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        MessageBox.Show("Updated Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
     End Sub
 
     Private Sub Back_btn_Click(sender As Object, e As EventArgs) Handles Back_btn.Click
